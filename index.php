@@ -1,10 +1,3 @@
-<?php
-include 'function.php';
-// Memanggil fungsi getQuote() yang telah dibuat di function.php
-$json = getQuote();
-// Menampilkan kalimat yang telah diambil dari API
-$quote = $json['hasil']['result'];
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,29 +24,30 @@ $quote = $json['hasil']['result'];
 </head>
 
 <body>
+
     <!-- Start Main -->
     <main class="flex-shrink-0">
-        <section class="py-5" id="kuote">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>Random Quote</h1>
-                        <p><?= $quote ?></p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="py-5">
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        Suka dengan quotes nya? Silahkan klik : <button id="gambar" class="tombol">Download
-                            Quote</button>
+                <button class="navbar-toggler mb-3 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link <?php if ($_GET['page'] == 'quote-1') echo "active" ?>" href="index?page=quote-1">Quote 1</a>
+                        <a class="nav-link <?php if ($_GET['page'] == 'quote-2') echo "active" ?>" href="index?page=quote-2">Quote 2</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Start Content -->
+        <?php require_once 'function/menu.php' ?>
+        <!-- End Content -->
+
     </main>
     <!-- End Main -->
 
