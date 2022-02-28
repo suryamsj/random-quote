@@ -10,8 +10,42 @@ body {
     min-height: 100vh;
 }
 
+nav {
+    background: #D2DBEE;
+    box-shadow: 9.91px 9.91px 15px #BFC7D9, -9.91px -9.91px 15px #E5EFFF;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: .9rem;
+
+    .nav-link {
+        color: #151F28 !important;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        margin-right: .7rem;
+
+        &:hover {
+            box-shadow: inset 7.21px 7.21px 11px #C6CFE1, inset -7.21px -7.21px 11px #DEE7FB;
+        }
+
+        &:active {
+            outline: none;
+            box-shadow: inset 7.21px 7.21px 11px #C6CFE1, inset -7.21px -7.21px 11px #DEE7FB;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .active {
+        transition: all 0.5s ease-in-out;
+        box-shadow: inset 7.21px 7.21px 11px #C6CFE1, inset -7.21px -7.21px 11px #DEE7FB;
+    }
+}
+
 main {
     padding: 1rem;
+    max-width: 650px;
 
     section {
         background: #D2DBEE;
