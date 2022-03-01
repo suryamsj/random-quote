@@ -11,7 +11,7 @@ $quote = $json['hasil']['result'];
         <div class="row">
             <div class="col-12">
                 <h1>Random Quote</h1>
-                <p><?= $quote ?></p>
+                <p><?= empty($quote) ? "Sedang tidak bisa digunakan" : $quote ?></p>
             </div>
         </div>
     </div>
