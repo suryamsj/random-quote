@@ -1,22 +1,25 @@
 <div align="center" id="top"> 
-  <img src="screenshot/random.png" alt="Bacot" />
+  <img src="screenshot/random.png" alt="Random Quote" />
+
   &#xa0;
+
+  <a href="https://random-quote.suryamsj.my.id">Demo</a>
 </div>
 
 <h1 align="center">Random Quote</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/suryamsj/bacot?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/suryamsj/random-quote?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/suryamsj/bacot?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/suryamsj/random-quote?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/suryamsj/bacot?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/suryamsj/random-quote?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/suryamsj/bacot?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/suryamsj/random-quote?color=56BEB8">
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/suryamsj/bacot?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/suryamsj/random-quote?color=56BEB8" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/suryamsj/bacot?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/suryamsj/random-quote?color=56BEB8" />
 </p>
 
 <hr>
